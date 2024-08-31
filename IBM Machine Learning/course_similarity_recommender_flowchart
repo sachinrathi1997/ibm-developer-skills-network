@@ -1,0 +1,14 @@
+// Course Similarity Recommender System
+digraph {
+	A [label="Raw Data"]
+	B [label="Data Processing"]
+	C [label="Feature Extraction"]
+	D [label="Feature Representation"]
+	E [label="Similarity Calculation"]
+	F [label="Generate Recommendations"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+}

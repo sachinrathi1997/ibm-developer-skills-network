@@ -1,0 +1,18 @@
+// Content-Based Recommender System
+digraph {
+	A [label=Start shape=ellipse]
+	B [label="Load Course Data" shape=box]
+	C [label="Load User Profile Data" shape=box]
+	D [label="Compute Course Similarities" shape=box]
+	E [label="Retrieve Enrolled Courses for User" shape=box]
+	F [label="Generate Recommendations" shape=box]
+	G [label="Display Recommendations" shape=box]
+	H [label=End shape=ellipse]
+	A -> B [label="Start Process"]
+	B -> C [label="Load Data"]
+	C -> D [label="Compute Similarities"]
+	D -> E [label="Get User Profile"]
+	E -> F [label="Generate Recommendations"]
+	F -> G [label="Show Recommendations"]
+	G -> H [label="End Process"]
+}
